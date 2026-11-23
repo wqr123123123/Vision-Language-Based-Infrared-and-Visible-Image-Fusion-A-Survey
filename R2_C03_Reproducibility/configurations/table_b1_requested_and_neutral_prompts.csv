@@ -1,0 +1,7 @@
+Task,Requested instruction,Matched neutral instruction
+Pedestrian,Increase the contrast of the pedestrian region while preserving vehicles and the remaining scene.,Keep the contrast of the pedestrian region unchanged while preserving vehicles and the remaining scene.
+Vehicle,Increase the contrast of the vehicle region while preserving pedestrians and the remaining scene.,Keep the contrast of the vehicle region unchanged while preserving pedestrians and the remaining scene.
+Structure,Preserve the fine structural detail and existing edges while keeping other regions unchanged.,Keep the fine structural detail and existing edges unchanged while preserving other regions.
+Dark brightness,Increase the brightness of the dark region while preserving its edges and the remaining scene.,Keep the brightness of the dark region unchanged while preserving its edges and the remaining scene.
+IR preference,Prioritize the infrared target structure while retaining the visible background details.,Keep the infrared target structure as is while retaining the visible background details.
+VIS preference,Prioritize the visible background structure while retaining the infrared targets.,Keep the visible background structure as is while retaining the infrared targets.

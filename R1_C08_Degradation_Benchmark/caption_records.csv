@@ -1,0 +1,128 @@
+sample_id,caption
+Low_light:00036N,a person walking down a dark street at night
+Low_light:00714N,a man walking down the street at night with a truck behind him
+Low_light:01114N,a row of bicycles parked on the side of the road at night
+Noise:00345D,a picture of a city street at night with cars on it
+Noise:00462D,a group of people walking down a street next to a building
+Noise:00800,an overhead view of cars and bikes on a city street
+Noise:00926,an aerial view of cars on a highway
+Noise:010226,a car driving down a street next to a building
+Noise:01332,people walking on a beach with umbrellas in the background
+Noise:01498D,a group of people walking through a park with yellow trees
+Noise:01514D,a cobblestone street lined with trees and buildings
+Noise:01850,a yellow car driving down the road at night
+Noise:04021,an aerial view of an empty parking lot
+Noise:04047,an aerial view of a busy intersection in china
+Noise:04103,a row of bikes parked on the side of the road
+Noise:04499,a group of people standing on a street corner at night
+Noise:1389,an aerial view of people crossing a street at night
+Noise:250155,an aerial view of a parking lot with parked cars
+Noise:250272,several cars parked on the side of a street at night
+Rain:00186D,people walking down the street in the rain
+Rain:00213D,people walking down the street in the rain
+Rain:00275D,a man is walking down the street in the rain
+Rain:00412D,cars are parked on the side of the road in the rain
+Rain:010225,a car driving down the road in the rain
+Rain:01591D,two cars are driving down the street in the rain
+Rain:020381,people crossing the street in the rain
+Rain:030025,a couple of people standing in the rain at night
+blur:00283D,trees on the side of the road
+blur:00287D,a street lined with trees
+blur:00332D,a person riding a skateboard down a city street
+blur:00371D,trees on the side of the road
+blur:00416D,cars parked on the side of the road
+blur:00462D,trees on the side of the road
+blur:00481D,a white van is parked in the middle of a parking lot
+blur:0054,a blurry image of a car driving down a road
+blur:0113,several cars are parked on the side of the road
+blur:01202,an aerial view of a parking lot with parked cars
+blur:01384D,trees on the side of the road
+blur:01441D,a group of people riding skateboards down a street
+blur:01505,an aerial view of a busy intersection at night
+blur:0158,two people are standing on the side of the road at night
+blur:01848,an aerial view of a highway with trucks on it
+blur:020285,an overhead view of people walking on the street at night
+blur:030008,several people are crossing the street at night
+blur:030452,an overhead view of cars and people on the street at night
+blur:050328,a group of people on a street at night
+blur:311,an aerial view of cars parked on a street at night
+blur:373,an aerial view of a city street at night
+blur:540,an aerial view of a city street at night
+blur:579,an aerial view of a basketball court at night
+haze:00019,an aerial view of a car parked in a parking lot
+haze:00091D,an aerial view of people walking around a playground
+haze:00107D,cars are driving down the street in the rain
+haze:00315D,an overhead view of cars and people on the street
+haze:00462D,a car driving down a street in front of a building
+haze:00650D,a person walking down the street in the fog
+haze:01181,a car is driving down the street at night
+haze:01275,a group of people walking down the street
+haze:01441D,a person riding a bicycle down a street in the fog
+haze:01520D,a man is crossing the street at night
+haze:01535D,a van is parked on the side of the road
+haze:03987,an aerial view of a highway with cars on it
+haze:04064,trees on the side of the road
+haze:04067,trees on the side of the road
+haze:05042,cars are driving on a foggy street in front of tall buildings
+haze:05114,an aerial view of a street at night with cars and trucks
+haze:05144,an aerial view of a city street in the fog
+haze:05237,cars are parked on the side of the road on a foggy day
+haze:070057,an aerial view of a parking lot with cars parked on it
+haze:070127,a man on a bike is riding down the street next to parked cars
+haze:1510,a view of a city street at night with cars and people
+haze:1622,a man is standing on the side of the road at night
+haze:260084,a group of people walking on the street in the rain
+haze:260165,trees on the side of the road
+haze:260418,a car is parked in front of a building at night
+haze:260504,a group of people standing in front of a building at night
+over_exposure:FLIR_00006,a street with cars parked on both sides of the road
+over_exposure:FLIR_00455,a car is parked on the side of the road
+over_exposure:FLIR_03909,a car is driving down the street with the sun in the background
+over_exposure:FLIR_04302,a car is driving down the road with a person standing in front of it
+snow:1 (2),a person with an umbrella standing on the side of the road
+snow:1(1),a group of people standing on a snowy hillside
+snow:10,two people are walking down the road in the snow
+snow:10(1),people walking on the side of the road in the fog
+snow:11,a view of a snowy mountain from the side of a road
+snow:11(1),people walking on the road in the foggy weather
+snow:12,the road is covered in snow on a foggy day
+snow:12(1),snow is falling on blue cones in a parking lot
+snow:13,a group of people standing on the side of a road in the fog
+snow:13 (2),a group of people in blue raincoats walking down a snowy road
+snow:13(1),several people are standing on the side of the road in the snow
+snow:14,a group of people walking on the side of a road in the fog
+snow:14(1),people walking on the side of the road in the snow
+snow:15,a group of people with umbrellas walking down a snowy mountain road
+snow:15(1),people walking on the side of the road in the snow
+snow:16,people walking on a snowy road with umbrellas
+snow:16(1),a person in a blue coat walking down a snowy road
+snow:17,a view of a snowy mountain from the side of a road
+snow:17(1),two people walking down a snowy road in the fog
+snow:18,people walking on a foggy road with umbrellas
+snow:18(1),a person with an umbrella walking down a road in the snow
+snow:19,people in pink coats walking on a foggy road
+snow:19(1),a person with an umbrella standing on the side of the road
+snow:2,a group of people standing on the side of a road in the fog
+snow:2(1),snow falling on a city street at night
+snow:20,a person walking on the side of a road in the snow
+snow:20(1),two people walking down a road in the fog
+snow:21,a person with an umbrella walking down a road in the snow
+snow:21(1),two people are walking down the road in the snow
+snow:22,several people are standing on the side of the road in the snow
+snow:22(1),a car driving down a street with snow falling from the sky
+snow:23(1),people walking on a foggy road with umbrellas
+snow:3,snow falling on the street at night
+snow:3(1),a group of people in blue raincoats walking down a snowy road
+snow:4,people walking on the road in the foggy weather
+snow:4(1),people walking on the side of the road in the fog
+snow:49,two people walking down a snowy road in the fog
+snow:5,a group of people walking down a road in the fog
+snow:5(1),a group of people walking down a road in the fog
+snow:6,people walking on a snowy road with umbrellas
+snow:6(1),a car driving down the road in the snow
+snow:7,people in pink coats walking on a foggy road
+snow:7(1),a person in a blue coat walking down a snowy road
+snow:8,a group of people walking on the side of a road in the fog
+snow:8(1),three people walking down a snowy road with umbrellas
+snow:9,the road is covered in snow on a foggy day
+snow:9(1),a group of people with umbrellas walking down a snowy mountain road

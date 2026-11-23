@@ -1,0 +1,12 @@
+Method(s),Native format / pathway,Evaluated text or implementation choice
+Comparison configurations,No inference-text pathway in the evaluated configurations.,DCMIF: language branch disabled; missing-infrared inference retained. Other comparison methods receive no prompts.
+LDFusion; CNLFusion,Language supervises training only.,"No inference caption, variable prompt or null-text substitution."
+TextFusion,Plain text; no extra wrapper.,Caption/task/neutral text verbatim; no grounding/segmentation call.
+Text-IF,Plain text; no extra wrapper.,Caption/task/neutral text verbatim; CLIP.
+VGDCFusion,Plain text; no extra wrapper.,Caption/task/neutral text verbatim; same text for both modalities.
+DiTFuse,"[FUSION]. <MULTI-MODALITIES>. This is the first image <img><|image_1|></img>, and this is the second image <img><|image_2|></img>. Please generate a fused image based on: {desc}",Replace {desc} with c or the task/neutral instruction; image placeholders identify the same infrared/visible inputs.
+IF-FILM,Plain text; no extra wrapper.,"Caption/task/neutral text verbatim; BLIP-2 last-layer token states (≤32), no pooling, hidden_dim=256, image2text_dim=32."
+Text-DiFuse,Object-name query → OWL-ViT → SAM masks.,"pedestrian→person; vehicle→car; neutral→person,car. OWL-ViT owlvit-base-patch32; SAM sam_vit_h_4b8939.pth; task VIS–IR. Native couple_single=True."
+TeRF,Task/region text → LLaMA-7B → GroundingDINO Swin-T → SAM ViT-H.,"groundingdino_swint_ogc.pth; sam_vit_h_4b8939.pth; box/text/NMS thresholds 0.25/0.2/0.5. LLaMA context 2048, max generation 128. RAM ram_swin_large_14m.pth is used only by the no-prompt tagging branch."
+ControlFusion,Plain prompt; fallback: “This is the infrared visible light fusion task.”,Text-prompt mode with c/task text; vi branch. Automatic-prompt mode is not used.
+DPOFusion,Variable text plus fixed: “The fused image with standard infrared information and standard visible information”.,Encode c/task text separately from the fixed sentence; 77-token CLIP limit for each condition.

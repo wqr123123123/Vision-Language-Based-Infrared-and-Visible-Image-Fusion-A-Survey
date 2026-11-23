@@ -1,0 +1,20 @@
+Method,Checkpoint files
+MetaFusion,weight/model_weight.pth
+TextFusion,LLVIP_pretrained.model
+DRFusion,models_M3FD_blur/net_params.pkl
+Text-IF,pretrained_weights/checkpoint.pth
+MaeFuse,final_new_60.pth
+VGDCFusion,checkpoint.pth
+SAGE,checkpoints/checkpoints.pt
+DiTFuse,model.safetensors; adapter_model.safetensors (LoRA)
+SwinFuse,Final_epoch_50_Mon_Feb_14_17_37_05_2022_1e3.model; fusion_best.model
+IF-FILM,IVF.pth; blip2_pretrained.pth
+DenseFuse,densefuse_gray.model
+Text-DiFuse,diffusion_stage1.pth; diffusion_stage2.pth; FCM-VIS-IR.pt; SAM/OWL weights below
+DCMIF,AFRI/MSRS/weight/ckpt.pth; JSRL/epoch_490/dictionary.pth
+TeRF,Best.pth; LLaMA-7B; GroundingDINO/SAM weights below
+TGFuse,Epoch_19_iters_2500.model
+ControlFusion,final.pth; one.pth
+LDFusion,Enc_final.pt; Dec_final.pt
+DPOFusion,General_model.ckpt; kl-f4/model.ckpt; fusion_layer_color.ckpt
+CNLFusion,model_30.pth

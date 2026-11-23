@@ -1,0 +1,11 @@
+Evaluation / coverage,Dataset / subset (n),Text conditions,Measures,Evaluation design
+Basic quality11 VL¹ + 8 Conv.,T (30); L (250);R (50),"Pair captions: T/L, 3rd of 5; R, sole caption.",EN; SD; SF; AG; MI; SSIM; CC; SCD; FMI2,"Matched pairs/canvas; 10,000 paired-image resamples."
+Global compatibility9 text-input VL,L (20),"t1, t3, t5 per image; 60 descriptions.",Image–text cosine,CLIP B/32; SigLIP B/16 (224); mean of 3 scores.
+Target contrast,T/L/R (23),Pedestrian/vehicle priority; raise/hold contrast (2 directions).,TCAG; A/B selectivity; success rate,"9 text-input VL methods; task vs matched neutral; fixed images, weights, random state and source ROIs; preservation checks."
+Structural retention,T/L/R (30),Preserve/hold existing edges (1 direction).,Edge-F1 change,
+Dark-region brightness,T/L (20) ³,Raise/hold dark brightness; preserve edges/background (1 direction).,TCAG; success rate,
+Modality preference,T/L/R (28) ³,Prioritize/hold IR targets or VIS background; retain other-modality detail (2 directions).,IR-edge TCAG; success rate,
+Null-text control,T (8); L (14); R (8),Selected caption vs native null; same encoder and fixed wrapper.,SSIM; SCD; SF,9 inference-text methods; fixed weights and paired random states; within-model comparison.
+Spatial attribution9 VL,T/L/R (8 each),"Pedestrian priority, vehicle priority, and neutral fusion (no target priority).",Grad-CAM; output difference,Mean Y in A ∪ B; CAM mass normalization; P99 cap; square-root display.
+Detection13 views,"RGBT-tiny:train 5,711/58 seq.;val. 510/17 seq.;test 335/13 seq.;7 classes, 1,762 boxes","VIS, IR and 11 fused views; no detector text; native fusion prompts.",mAP@0.5; mAP@0.5:0.95; P/R@0.25,"YOLOv8s 8.2.82; joint VIS/IR training (5,711 per modality); frozen test; 10,000 paired-sequence resamples."
+Degradation11 VL + VIS/IR,DDL-12 (50);DeMMI-RF (20);EMS_lite (10);AWMM-100K (47);127 pairs 4,"BLIP-2/OPT-2.7B from degraded VIS RGB only; 4 beams, ≤100 tokens, FP16; reviewed/corrected.",EN; SD; SF; AG; MI; SSIM; CC; SCD,Filename-matched set; condition means; 7 conditions equally weighted.

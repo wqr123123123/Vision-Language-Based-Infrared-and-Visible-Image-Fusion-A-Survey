@@ -1,0 +1,61 @@
+sample_id,prompt_id,text,text_sha256
+LLVIP:1,t1,There are five vehicles on the pedestrian's right.,79a95b50d9ed9cc5c85cdec5e4c9c689b3a65a137d7375c75f0ac86a97f422e0
+LLVIP:1,t3,There is a pedestrian in the middle of the road.,e00d5f03b4c3c657095f8750796c741a7490813fb886d2a43665ed05184fe525
+LLVIP:1,t5,There are five vehicles on the pedestrian's right.  There are many trees on the right side of the car.  There is a pedestrian in the middle of the road.,2ce7279530b2f3a4e5955a9ae0eafd09a54fe7819fb2e07b2d4bc858febd7209
+LLVIP:10,t1,There are five pedestrians crossing the street on the zebra crossing.,b86409927570803eb5ae6171748763cfd338a451e6cd50a6f8de213c8b3a862c
+LLVIP:10,t3,The old man is holding hands on his back.,6f4b9e9b380a188e93bd5d6a75002ade16a06090d2bbe35dd68bf63cf3d72de0
+LLVIP:10,t5,There are five pedestrians crossing the street on the zebra crossing.  The girl is holding a mobile phone with a schoolbag on her back.  The old man is holding hands on his back.,92675dfa6055833fcc792254ca230fdeea060890f0108cd13086a6358f864fad
+LLVIP:100,t1,There are cars and people.,641137dfb27acef8cd445206567a2989aaba6ea524685877d23c10ca2885e829
+LLVIP:100,t3,There are four cars and one person.,3d77d6fb0b204b0feb4956d934100e7c7ba915104c159aadbdca147925c1c7a1
+LLVIP:100,t5,There are cars and people. The cars are parked on the side of the road and a man  is riding a bicycle on the opposite side of the road. There are four cars and one person.,87eef54fd3fe7e2b7d717f914b8028b7e1eca811736b2c1584b99c493aadd494
+LLVIP:101,t1,A man is riding a bike down the street.,f950ddd8e22d9d0182ade37bca53449a514646d0309838e6cb0f9b7a0202e488
+LLVIP:101,t3,There is a trash can next to the road sign.,f6bfd7c77333c3acc7d558ea5f5b34b4212a3d548e64534f5ee0a71fac2ac2e6
+LLVIP:101,t5,A man is riding a bike down the street.  Several cars were parked under trees on the side of the road.  There is a trash can next to the road sign.,e005cc1fc9a9e503c999e6980d3a8632ab315381e69f7aa28a87c05e130f12bc
+LLVIP:102,t1,There are five cars.,18029672f5bba460a980f260657b763c75a7a207cd54fcd52328e3a4d1048d19
+LLVIP:102,t3,There are many leaves on the tree.,0f8aae9be4ff8fc7ee99baee1ef3f22dab9cdf92b4f2905cfc3793e63a7b4c56
+LLVIP:102,t5,There are five cars.  There is a man and a woman with a dog.  There are many leaves on the tree.,90606e683d0056c656856f41497e0e9b00c44c9af1ddd761371cd27062d6db38
+LLVIP:103,t1,A pedestrian is walking on the street.,3059696b2f8d5a2e40d56bb785688fe8d2c6e60d305d936ab3e3530fc2ad563a
+LLVIP:103,t3,There are some cars beside the road.,d7df65b224a052963273d0e9c2efaaa9b4ea661f4876b3137e9e781899aa5d9f
+LLVIP:103,t5,A pedestrian is walking on the street.  There are some cars beside the road.  There are some cars beside the road.,2033b183dac08d1653d397fc666235d36398b713a5a0cd38005b55293b0b95a0
+LLVIP:104,t1,There are several cars parked on one side of the tree.,140a31206342474c7ed19eb2a68fd62229b3c0d53cbe2bf96fd7a1523983451a
+LLVIP:104,t3,There are two trees.,1a0776a904faa780e1c28a95a6a578f5fa397d189c171dff6ddd7d082b520a93
+LLVIP:104,t5,There are several cars parked on one side of the tree.  A girl in black is walking by the roadside with a bag in her hand.  There are two trees.,fd03e250a3720b31fe4eecc6c6d87075f7437ceb84751f7f67b47a2de3698f78
+LLVIP:105,t1,There is a tricycle.,f1a1a9519f526c89d04535528b9a6c8520cc2284f40676935c0530527b0f7427
+LLVIP:105,t3,Three people are walking on the road.,a3446f0b170a01d1d36d980236509c8212f204f24f02169feeaff75601726332
+LLVIP:105,t5,There is a tricycle.  There is a delivery guy.  Three people are walking on the road.,91a61b3295ab5c85dfe6bcf2d47b646c983fac51626ad0a1be1e143c225f5027
+LLVIP:106,t1,The car on road.,5fb3e8dd848508113333e9c1bf90b6ce999d81efd17726ef45679c9325142bb7
+LLVIP:106,t3,People riding a bike.,e93cd70954905119b41e45bdf9d29fc1661f782abecd48e38b55ec4a318f515b
+LLVIP:106,t5,The car on road. Trees on the sidewalk. People riding a bike.,712e8d620d7fa1c5854a3cc70563b7d5ceac95259b70a675db205f4f57e207a1
+LLVIP:107,t1,Four people are walking on the sidewalk.,3bc0c494a928c6f18ba313af6af7764c18263b12b778e6b669770e797b28e45a
+LLVIP:107,t3,There is a bike on the street.,63d19b34a744b9cfcadabdf8d85ed052bbae91717acafaf1a46ec9927f2ce517
+LLVIP:107,t5,Four people are walking on the sidewalk.  There are four cars.  There is a bike on the street.,e10380eb99e0bc24cdc6eab9e85102d3c071536288e043e2bad7b405324914c5
+LLVIP:108,t1,A man wearing a black suit is riding a bike.,9a72cf854102d7f25d0faa760fd997bf3426906332efb8419950e8d56b7976a6
+LLVIP:108,t3,Several cars are stopped along the street.,97a8c617f53a9cd4f693f52288dd8ebca6722069985f0e73a3b1062d33f91e44
+LLVIP:108,t5,A man wearing a black suit is riding a bike. There are two trees. Several cars are stopped along the street.,d6dad8efcad22d60206192f34f185fffd112a048d96cb1f55338fb828d7aecf5
+LLVIP:109,t1,There are cars and people.,641137dfb27acef8cd445206567a2989aaba6ea524685877d23c10ca2885e829
+LLVIP:109,t3,There are two cars and two persons.,c5f9ff6048a60c9227ab64aa13232f01ffdeecd589c6114d1eccc0e4869a6a1e
+LLVIP:109,t5,There are cars and people. The cars are parked on the side of the road and Two people are waiting at the zebra crossing. There are two cars and two persons.,be1253d2030ed0d356824a5e4c35a417960653bbc6ce1663192fe32518be1fc3
+LLVIP:11,t1,"There are two pedestrians walking along the road, and several cars are parked on the road.",9ec4a6f6ddd44384fb56d1ee57bffb0e7496aff8cb2cb6c620951a92f3c6d0c6
+LLVIP:11,t3,A man in black and a woman in pink are walking nearing several cars.,03eea30c9fe84fb299ec23c5b73973c29b9e33755e18e212b318d6ed2b8c7d30
+LLVIP:11,t5,"There are two pedestrians walking along the road, and several cars are parked on the road.  A man and his daughter are walking along the street.  A man in black and a woman in pink are walking nearing several cars.",8749b5e06a7f0041a2b2ab83834d47d7111148341642450fc5b0933cb6f2af44
+LLVIP:110,t1,A person is crossing the street.,79d55d5b9956c82edca78178278c7899760e26e6e28429fd4e24932051673d32
+LLVIP:110,t3,There are some flowers in the street.,49b58174e7959b6c818a4edd82efadf169ea1f0fa761182e43e1f2539ab4f11d
+LLVIP:110,t5,A person is crossing the street. A person wearing red coat is driving an electric bike. There are some flowers in the street.,29667f828e9e64887c4b6dc1fd4cdf9336f8a6ccef921eeb136638790877b17d
+LLVIP:111,t1,A woman is walking.,a0a9b74ded3128eddcac4b46cf0e75f05da332dbabff7730c09f91f4a181eeff
+LLVIP:111,t3,A car is running.,15b26ac58f8eb6ac4e93fb4e50f821b82749b102fc0c1088c0ea3ac0d3c218e9
+LLVIP:111,t5,A woman is walking.  A person is holding a bike.  A car is running.,71a06f3201d091ee961980a6aaa05eb49f9d3bc90b2c3b29f7c95677c597b2d8
+LLVIP:112,t1,Two pedestrians passed by at the intersection.,7b993767804e93dbb1ad6a8381dd2a9d959c55e3a0a26af90e3f40477f68572a
+LLVIP:112,t3,A car was waiting for the signal light on the road.,57caae5d55e782bc65b15f40d45c7879adbca1b9d677fc096400b5bfa7670194
+LLVIP:112,t5,Two pedestrians passed by at the intersection.  A takeout man was waiting for the signal light on the electric car.  A car was waiting for the signal light on the road.,e0e959df04c47d336468bbd5e6aaf4ea8f503dc6d21a79ed80a126c554378175
+LLVIP:113,t1,The car turns its lights on.,db27f98d4dd9d235538d07ea39c9524f14e1058ca0501363f8deb14acfd30033
+LLVIP:113,t3,A yellow bicycle stopped close to a traffic roadblock.,cd10aa4b391e5443cfb4c2de091ff619cd9da275bea306dd6045415aa15bdbff
+LLVIP:113,t5,The car turns its lights on. The man rides an electric bicycle with a baby. A yellow bicycle stopped close to a traffic roadblock.,0c2d0ff131ab9c2289981613ec0a26eeb283ae40496181b94ada8433e9a9cb92
+LLVIP:114,t1,A person is riding a bike.,f37dd4741232116a1d6d9ff5cf844b9bb297cc57119c56c97723d3f28be516c3
+LLVIP:114,t3,There are four cars.,6c52a69619b8fe5f163309c5c43dd7114b211dcb48f6303fa353efe150ea258f
+LLVIP:114,t5,A person is riding a bike.  Two trees live beside the road.  There are four cars.,be0f0e87f99e4fd0e3363f9bb6361386eecf8e6231e1a1377eb8af982d1c794f
+LLVIP:115,t1,A man riding a bike on the road.,8bb08970767c4aa958a4b0d07cab08921cdd3469465c5a091cc236d484b010d1
+LLVIP:115,t3,There is a trash can on the sidewalk.,c306d5b0da76eb22cb4e7e67b2c02ccf074573e07e4f4883223201fcbf066c6d
+LLVIP:115,t5,A man riding a bike on the road. There are two cars on the side of the road. There is a trash can on the sidewalk.,46025265a8ba93b53d3bf42795d891a9d91ea15237adc70ff1c082047d83493e
+LLVIP:116,t1,There are four cars.,6c52a69619b8fe5f163309c5c43dd7114b211dcb48f6303fa353efe150ea258f
+LLVIP:116,t3,A person is riding a bike.,f37dd4741232116a1d6d9ff5cf844b9bb297cc57119c56c97723d3f28be516c3
+LLVIP:116,t5,There are four cars.  A person is walking.  A person is riding a bike.,abf0bcae32bf51547f496184314cae67b128f52693d40a3f95d6c39d31ff544b

@@ -1,0 +1,20 @@
+Method,Code,Official revision URL,Ckptsource,Res.,Pre,Post,Eval.,HW,B,Infer.,Seed,Time,Textinterface
+MetaFusion,Official,https://github.com/wdzhao123/MetaFusion/commit/a8c5eafc84df9399e35602a00e3651a7d3d5c7d1,Repo,Native,Gray + RGB;512×384,Clip,Direct,RTX 5080,1,FP32; 3 blocks,42,None,None
+DRFusion,Official,https://github.com/YShi-cool/DRFusion/commit/9954f1702bbf25df05a47f275698135daa9e958f,Author,Native,Gray / Y;pad ×16,Unpad; clip,Direct,RTX 5080,1,FP32,42,None,None
+MaeFuse,Official,https://github.com/Henry-Lee-real/MaeFuse/commit/08e14e890c93cb9aed105712756806ef37515481,Author,Native,RGB 640×640;norm.,Unpatch;inv. norm.,Direct,RTX 5080,1,FP32,42,None,None
+SAGE,Official,https://github.com/RollingPlain/SAGE_IVIF/commit/377fdbef6b8b6ccbd1139358ad66bb41ea084dc1,Repo,Native,IR gray;VIS Y /255,First output;clip,Direct,RTX 5080,1,FP32,42,None,None
+SwinFuse,Official,https://github.com/Zhishe-Wang/SwinFuse/commit/93cd2cbed1a1710ff89cdf6f0ca161756f2a9615,Author,Native,Gray /255;224×224,Min–max,Direct,RTX 5080,1,FP32,42,None,None
+DenseFuse,Official,https://github.com/hli1221/densefuse-pytorch/commit/4394b63e9295db1c6b7a5c3664551c90f0605f2b,Repo,Native,Gray /255,Clip,Direct,RTX 5080,1,FP32; concat,42,None,None
+DCMIF,Official,https://github.com/harukiv/DCMIF/commit/d8438ddcc25b4952c23c5056456b88c85d378c35,Author,Native,YCbCr /255;zero-pad ×64,Unpad; chroma,Direct,RTX 5080,1,FP32,42,None,Disabled(tested)
+TGFuse,Official,https://github.com/dongyuya/TGFuse/commit/4a6edef1b1ce3ffff36f3d1b20ad3a5dac5a4a37,Repo,Native,Gray /255;256×256,Clip,Direct,RTX 5080,1,FP32,42,None,None
+LDFusion,Official,https://github.com/wyhlaowang/LDFusion/commit/2f40835392de15c53650915e332306a9fef47850,Repo,Native,IR gray;VIS Y /255,Chroma;Clip,Direct,RTX 5080,1,FP32,42,Both,Train only
+CNLFusion,Official,https://github.com/VCMHE/CNLFusion/commit/f9e9c4f7c34ee99bd911eb59e4f8805350f09251,Repo,Native,Gray /255,Clip,Direct,RTX 5080,1,FP32,42,Both,Train only
+TextFusion,Official,https://github.com/AWCXV/TextFusion/commit/f409874cce25e9aa3a21ccd1b957c3e7ff74b5f6,Author,Native,Gray /255,Clip,Direct,RTX 5080,1,FP32,42,Both,CLIP B/32
+Text-IF,Official,https://github.com/XunpengYi/Text-IF/commit/92d5cbe1375ecc55f8fe35a0b1158a3113960f75,Author,Native,"RGB [0,1];floor ×16",Clip,Direct,RTX 5080,1,FP32,42,Both,CLIP B/32
+VGDCFusion,Official,https://github.com/Lmmh058/VGDCFusion/commit/6c3ec3dd68935fd6eec0f5776e89be51df505b11,Author,Native,"RGB [0,1];floor ×16",Clip,Direct,RTX 5080,1,FP32,42,Both,CLIP B/32 ×2
+DiTFuse,Official,https://github.com/Henry-Lee-real/DiTFuse/commit/9a2d1b80ce5edecd8b5a4d7fe551a7cceb1ee0fb,HF release,Native,RGB; longside 256,Native convert,Direct,RTX 5080,1,BF16; flow 50;CFG 2.0/1.6,42,Both,"Phi-3, joint"
+IF-FILM,Official,https://github.com/Zhaozixiang1228/IF-FILM/commit/26a2f01770ccd4f33eb03a3c7e9ede737cbe8eec,Author,Native,Gray /255,Min–max,Direct,RTX 5080,1,FP32,42,Both,BLIP-2 tokens
+Text-DiFuse,Official,https://github.com/Leiii-Cao/Text-DiFuse/commit/2ef1d9250d6c02186ca300517ad6693ca0468970,Author,Native,"Y [−1,1];max 640",Chroma; clip,Direct,RTX 5080,1,AMP;diffusion 25,42,Both,OWL-ViT + SAM
+TeRF,Official,https://github.com/Baixuzx7/TeRF/commit/1db2d463fdd1a521061e5306f594c203d24ae75d,Repo,Native,Gray /255;native tools,Scale; clip,Direct,RTX 5080 *2,1,FP32,42,Both,LLaMA +grounding
+ControlFusion,Official,https://github.com/Linfeng-Tang/ControlFusion/commit/a1302e6ecd8d9d24c3ffacc8457e8a9397c40d33,Author,Native,"RGB [0,1];floor ×32",Clip,Direct,RTX 5080,1,FP32; vi branch,42,Both,CLIP L/14@336
+DPOFusion,Official,https://github.com/suweijian1996/DPOFusion/commit/3ce599b9025e14d1fdbeffe241fd458c04737f0b,Author,Native,"BGR [−1,1];floor ×32",VAE decode;clip,Direct,RTX 5080,1,FP32; DDIM 50;eta / CFG: 1,42,Both,CLIP L/14 ×2
